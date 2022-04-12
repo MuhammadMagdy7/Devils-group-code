@@ -1,0 +1,17 @@
+$fontSizeHero : 55px;
+$headColor: #fff;
+$heropar : 25px;
+$heroparColor : #A2AEC3;
+
+
+@mixin btnHeroOutLine($bgColorBtn, $navbtn, $brdrdsBtn, $pleft , $pright, $ptop, $pbtm) {
+    background-color: $bgColorBtn;
+    color: $navbtn;
+    border-radius: $brdrdsBtn;
+    padding-left:$pleft;
+    padding-right:$pright;
+    padding-top:$ptop;
+    padding-bottom:$pbtm;
+    text-decoration: none;
+}
+

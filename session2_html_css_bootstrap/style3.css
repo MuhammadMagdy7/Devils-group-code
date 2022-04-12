@@ -1,0 +1,97 @@
+/* *{
+    padding:0px;
+    margin:0px;
+}
+
+.red{
+    width:200px;
+    height:200px;
+    background-color: red;
+    padding:20px;
+    margin:20px 20px;
+}
+
+.green{
+    width:200px;
+    height:200px;
+    background-color: green;
+}
+
+.blue{
+    width:200px;
+    height:200px;
+    background-color: blue;
+} */
+
+
+
+
+/*     <!-- display ~> block, inline, inline-block, none, felx -->
+ */
+
+ /* h1 span{
+     color:red;
+ } */
+
+ /* p{
+     width:500px;
+     background-color: red;
+     display: inline-block;
+ } */
+
+ p:nth-of-type(2){
+     /* display: none; */
+    /* visibility: hidden; */
+    }
+
+ /* span{
+     width:500px;
+     background-color: green;
+     display: block;
+ } */
+
+/* 
+ .content{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-direction: row-reverse;
+ } */
+
+
+ /* Note rem, em, vh, vw */
+
+
+
+
+ /* position ~> relative, absolute, fixed */
+
+/* .container{
+    width:400px;
+    height:400px;
+    background-color: aquamarine;
+}
+
+.red{
+    width:100px;
+    height:100px;
+    background-color: red;
+} */
+
+.container{
+    width:400px;
+    height:400px;
+    background-color: aquamarine;
+    position: relative;
+    top:10px;
+}
+
+
+.red{
+    width:100px;
+    height:100px;
+    background-color: red;
+    /* position: absolute;
+    top:2px; */
+    position: fixed;
+}

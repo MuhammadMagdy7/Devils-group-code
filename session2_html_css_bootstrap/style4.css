@@ -1,0 +1,30 @@
+/* html{
+    font-size:30px;
+}
+
+p{
+    font-size: 2rem;
+}
+
+.zeko{
+    font-size: 30px;
+}
+
+.zeko p{
+    font-size: 2em;
+} */
+
+.something{
+    width:600px;
+    height:600px;
+    background-color: burlywood;
+}
+
+.test{
+    /* width:50%;
+    height:50%; */
+    width:100vw;
+    height:100vh;
+    background-color: green;
+
+}

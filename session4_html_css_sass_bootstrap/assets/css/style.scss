@@ -1,0 +1,69 @@
+@import './modules/config';
+@import './modules/flexes';
+
+
+// .something{
+//     width:100px;
+//     height:100px;
+//     background-color: $bgColor;
+// }
+
+// .something2{
+//     width:100px;
+//     height:100px;
+//     background-color: $bgColor;
+// }
+
+
+// .something3{
+//     width:100px;
+//     height:100px;
+//     background-color: $bgColor;
+// }
+
+
+// h1{
+//     color:$headTextColor;
+// }
+// p{
+//     color: $pargraphsColor;
+// }
+
+
+.hero{
+    background-color: crimson;
+    box-shadow: 10px 10px black;
+}
+
+
+.heroContent{
+    @include flexes(2px solid black, '');
+}
+
+.servicesContent{
+    @include flexes(5px solid red, purple);
+    h1{
+        background-color: brown;
+
+        &::before{
+            content : ' heythere brown cow!';
+        }
+        &:hover{
+            background-color: yellowgreen
+        }
+    }
+}
+
+
+.aboutContent{
+    @include flexes(10px solid blue,  green);
+}
+
+.about{
+    @extend .hero;
+}
+
+
+.services{
+    @extend .about
+}

@@ -1,0 +1,72 @@
+.hero, .about, .services {
+  background-color: crimson;
+  -webkit-box-shadow: 10px 10px black;
+          box-shadow: 10px 10px black;
+}
+
+.heroContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  border: 2px solid black;
+  background-color: "";
+}
+
+.servicesContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  border: 5px solid red;
+  background-color: purple;
+}
+
+.servicesContent h1 {
+  background-color: brown;
+}
+
+.servicesContent h1::before {
+  content: ' heythere brown cow!';
+}
+
+.servicesContent h1:hover {
+  background-color: yellowgreen;
+}
+
+.aboutContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  border: 10px solid blue;
+  background-color: green;
+}
+/*# sourceMappingURL=style.css.map */

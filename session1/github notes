@@ -1,0 +1,12 @@
+1# create Repository (create a new project)
+
+2# git clone https://github.com/something/something.git ~> download a project
+
+3# push ~> git push
+
+4# git pull
+
+5# create a new branch ~> git checkout -b development
+
+
+6# https://github.com/wowsem0z/devils_group_project.git ~> Origin

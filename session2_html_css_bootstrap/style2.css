@@ -1,0 +1,26 @@
+div:not(.zekoChil2){
+    width:100px;
+    height:100px;
+    background-color: green;
+}
+
+p::first-line{
+    background-color: aqua;
+}
+
+p::first-letter{
+    font-size: 50px;
+    color:brown
+}
+
+p:nth-of-type(7){
+    background-color: aquamarine;
+}
+
+.parents h1:nth-child(3){
+    background-color: crimson;
+}
+
+.parents:first-child{
+    background-color: greenyellow;
+}

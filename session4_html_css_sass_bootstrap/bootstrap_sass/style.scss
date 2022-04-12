@@ -1,0 +1,136 @@
+@import './Config';
+@import './Navbar';
+@import './hero';
+@import './flexes';
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    font-family: $fontFamily;
+}
+
+
+.bg-dark{
+    background-color: $mainBgColor;
+}
+
+
+
+.nav-link{
+    color:$navlinkColor;
+}
+
+.active{
+    color:$activeLinkColor;
+}
+
+.nav-link:hover{
+    color :$hoverLinkColor;
+}
+
+
+
+.getStartedbtn{
+    padding-left:20px  !important;
+    padding-right:20px !important;
+    border-radius: 50px;
+    border: 2px solid $hoverLinkColor;
+    color:$navlinkColor;
+    margin-left:20px;
+
+}
+
+
+.hero{
+    background-color: $mainBgColor;
+    
+    
+}
+.heroHead{
+    color: $headColor;
+    font-size: $fontSizeHero;
+}
+
+.contentHero{
+    @include flexes;
+}
+
+
+.heroright{
+    position:relative;
+    animation-name: foqtaht;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes foqtaht {
+    0%{top:0px}
+    50%{top:10px;}
+    100%{top:0px}    
+}
+
+
+.heroPar{
+    font-size: $heropar;
+    color:$heroparColor;
+    font-weight: 500;
+    margin-bottom:50px !important;
+}
+
+.getStartedbtnHero{
+    @include btnHeroOutLine($btnGetStartedColor, $navlinkColor,$brdrRadiusBtn, $pright, $pleft, $ptop, $pbtm);
+    
+}
+
+
+
+
+.btnWatched{
+    position:relative;
+    top:10px;
+    // transition-property: color;
+}
+
+
+.btnWatched:hover{
+    color:#fff !important;
+}
+
+.btnWatched:hover .bi.bi-play-circle {
+    color:$btnGetStartedColor;
+}
+
+.headAboutus{
+    color:$mainBgColor;
+    font-variant: small-caps !important;
+    font-weight: 700;
+
+}
+
+.headAboutus::before{
+    content: '';
+    height:1px !important;
+    width:150px !important;
+    background-color: #ccc !important;
+    display: block;
+    margin:0 auto;
+    position: relative;
+    top:73px;
+}
+.headAboutus::after{
+    content: '';
+    height:5px !important;
+    width:50px !important;
+    display: block !important;
+    background-color: $mainBgColor;
+    margin: 20px auto;
+}
+
+
+// .p-3{
+//     padding:300px !important;
+// }

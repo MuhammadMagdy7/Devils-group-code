@@ -1,0 +1,87 @@
+/* Selecting `*` mean all elements */
+
+/* *{
+    border: 2px solid black;
+} */
+
+
+/* Selecting by ID */
+#zeko{
+    width:100px;
+    height:100px;
+    background-color: red;
+}
+
+
+/* Selecting by Class */
+.colorizing{
+    width:100px;
+    height:100px;
+    background-color: green;
+}
+
+/* Selecting by Tagname */
+h1{
+    background-color: tomato;
+}
+
+
+/* Selecting Descendent */
+main h4{
+    background-color: red;
+}
+
+/* Adjacent  */
+input[type="radio"]:checked + label{
+    text-decoration: line-through;
+    color:#777;
+}
+
+h1 + p{
+    background-color: yellow;
+}
+
+
+/* Selecting by Attributes */
+
+
+/* a[href="https://yahoo.com"]{
+    background-color: aqua;
+}
+a[href="https://bing.com"]{
+    background-color: red;
+}
+a[href*="google"]{
+    background-color: tomato;
+} */
+
+
+a[href^="https"]{
+    background-color: blueviolet;
+}
+
+
+
+img[src$="png"]{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+
+
+.googlez:link{
+    color:aqua;
+}
+
+.googlez:visited{
+    color:yellow;
+}
+
+
+.h1::after{
+    content: ' this is after';
+}
+
+.h1::before{
+    content: 'this is before '
+}

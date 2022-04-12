@@ -1,0 +1,31 @@
+
+
+
+
+.flexContent{
+    background-color: blueviolet;
+}
+.contents{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+
+div{
+    background-color: aquamarine;
+    margin: 10px;
+}
+.gridsection{
+    display: grid;
+    grid-template-columns: 1fr; 
+    column-gap: 1.5em;
+}
+
+
+.gridsection2{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1.5fr; 
+    column-gap: 1.5em;
+}
+
