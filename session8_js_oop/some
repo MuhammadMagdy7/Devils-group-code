@@ -1,0 +1,2 @@
+        <input type="radio" class="form-control" name="gender" value="Female"  aria-label="Enter firstname" aria-describedby="addon-wrapping">
+        <input type="number" class="form-control" name="height" placeholder="Enter height" aria-label="Enter firstname" aria-describedby="addon-wrapping">
