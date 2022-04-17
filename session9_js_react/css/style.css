@@ -1,0 +1,10 @@
+.bi.bi-x-circle-fill{
+    color:red;
+   
+}
+.delete{
+    border:none !important;
+    border-radius: none !important;
+    width:12px !important;
+    height:11px !important;
+}

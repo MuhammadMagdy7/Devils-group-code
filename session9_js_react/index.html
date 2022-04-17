@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/skeleton.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <div class="container">
+        <div class="row">
+            <form action="" class="p-5" id="dataentry">
+                <input type="text" class="u-full-width modelname" name="modelname" placeholder="Enter your modelname">
+                <input type="text" class="u-full-width modeldate" name="modeldate" placeholder="Enter your modeldate">
+                <select name="manufacture" id="" class="u-full-width manufacture">
+                    <option value="" disabled selected>Choose Manufacture Country</option>
+                    <option value="China">China</option>
+                    <option value="Us">Us</option>
+                    <option value="France">France</option>
+                    <option value="Korea">Korea</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Russia">Russia</option>
+                </select>
+                <input type="color" class="u-full-width color" name="color">
+
+                <button type="submit" class="btn btn-success u-full-width">Add New Car</button>
+            </form>
+        </div>
+
+
+        <div class="row">
+            
+            <table class="u-full-width">
+                <thead>
+                  <tr>
+                    <th># No. </th>
+                    <th>Modelname</th>
+                    <th>Modeldate</th>
+                    <th>Manufacture</th>
+                    <th>Color</th>
+                    <th>Delete</th>
+                  </tr>
+                </thead>
+                <tbody id="addnewCar">   
+                </tbody>
+              </table>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="./js/main.js">
+
+    </script>
+</body>
+</html>
